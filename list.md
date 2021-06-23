@@ -17,8 +17,8 @@ Output: []
 
 ```
 ### 解题思路
-+ 首先定义要返回的新链表为空： tail=nullptr;
-+ 从头到尾遍历要逆转的链表，将每一个节点查到新链表的头部。head->next = tail, tail = head;
+++ 首先定义要返回的新链表为空： tail=nullptr;
+++ 从头到尾遍历要逆转的链表，将每一个节点查到新链表的头部。head->next = tail, tail = head;
 ```cpp
 /**
  * Definition for singly-linked list.
